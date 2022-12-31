@@ -7,12 +7,14 @@
     "type-check": "tsc",
     "lint": "next lint",
     "prepare": "husky install",
-    "lint-staged": "lint-staged --config lint-staged.js"
+    "lint-staged": "lint-staged --config lint-staged.js",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "next": "latest",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "next-sitemap": "^3.1.43"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
